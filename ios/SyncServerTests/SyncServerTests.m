@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ardxreact_boilerplateTests : XCTestCase
+@interface SyncServerTests : XCTestCase
 
 @end
 
-@implementation ardxreact_boilerplateTests
+@implementation SyncServerTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

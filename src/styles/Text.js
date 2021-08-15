@@ -59,7 +59,6 @@ export const TEXT_STYLE = (size = 'normal', weight = 'normal', styles = {}) => {
     return ({
         fontSize: _GET_SIZE(),
         color: colors.text,
-        fontFamily: 'Roboto-Regular',
         fontWeight: _GET_WEIGHT(),
         ...styles
     })

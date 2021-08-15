@@ -1,4 +1,4 @@
-package com.ardxreact_boilerplate;
+package com.syncserverdev;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ardxreact_boilerplate";
+    return "SyncServer";
   }
 }

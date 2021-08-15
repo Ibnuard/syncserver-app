@@ -1,4 +1,4 @@
-package com.ardxreact_boilerplate;
+package com.syncserverdev;
 
 import android.app.Application;
 import android.content.Context;

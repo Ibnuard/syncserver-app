@@ -6,7 +6,7 @@ $FirebaseSDKVersion = '8.0.0'
 
 platform :ios, '10.0'
 
-target 'ardxreact_boilerplate' do
+target 'SyncServer' do
   config = use_native_modules!
 
   use_react_native!(
@@ -15,7 +15,7 @@ target 'ardxreact_boilerplate' do
     :hermes_enabled => false
   )
 
-  target 'ardxreact_boilerplateTests' do
+  target 'SyncServerTests' do
     inherit! :complete
     # Pods for testing
   end
